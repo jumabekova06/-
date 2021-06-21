@@ -1,37 +1,3 @@
-# n = int (input("Введите цифру"))
-# s = str()
-# c = str()
-# x = str()
-# for i in range (0, n):
-#     for l in range (1, n - i):
-#         c += ' '
-
-#     for j in range (n - i, n):
-#         s += '*'
-
-#     for l in range(n, n + i + 1):
-#         x += '*'
-#     print (f'{c}{s}{x}')
-#     c = ''
-#     s = ''
-#     x = ''
-# n = int (input())
-# s = str()
-# c = str()
-# x = str()
-# for i in range (0, n):
-#     for l in range (1, n - i):
-#         c += ' '
-
-#     for j in range (n - i, n):
-#         s += '*'
-
-#     for l in range(n, n + i):
-#         x += '*'
-#     print (f'{c}{s}{x}')
-#     c = ''
-#     s = ''
-#     x = ''
 from random import randint
 
 m = int (input('Введите M : '))
